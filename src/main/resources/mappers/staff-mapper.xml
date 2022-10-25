@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.solvd.airport.DAO.IStaffDAO">
+
+    <resultMap id="staffResult" type="com.solvd.airport.models.Staff" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="position" property="position"/>
+        <result column="staff_member_id" property="staffMemberId"/>
+    </resultMap>
+
+    <select id="getByID" resultMap="staffResult">
+        SELECT id, position, staff_member_id
+        FROM addresses WHERE id = #{id}
+    </select>
+
+    <insert id="create" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO Staff(id,position,staff_member_id)
+        VALUES(#{id},#{position},#{staffMemberId})
+    </insert>
+
+    <select id="getAllStaff" resultMap="staffResult">
+        SELECT id, position, staff_member_id
+        FROM addresses WHERE id = #{id}
+        FROM Staff s
+    </select>
+
+    <update id="update" useGeneratedKeys="true" keyProperty="id">
+        UPDATE Staff SET position = #{position}, staff_member_id = #{staffMemberId} WHERE id = #{id}
+    </update>
+
+    <delete id="delete">
+        DELETE FROM Staff where id = #{id}
+    </delete>
+</mapper>

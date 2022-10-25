@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bags>
+    <bag id="1">
+        <amount>1</amount>
+        <size>10</size>
+        <weight>15</weight>
+    </bag>
+    <bag id="2">
+        <amount>2</amount>
+        <size>12</size>
+        <weight>18</weight>
+    </bag>
+    <bag id="3">
+        <amount>1</amount>
+        <size>6</size>
+        <weight>6</weight>
+    </bag>
+    <bag id="4">
+        <amount>2</amount>
+        <size>11</size>
+        <weight>14</weight>
+    </bag>
+    <bag id="5">
+        <amount>1</amount>
+        <size>12</size>
+        <weight>12</weight>
+    </bag>
+</bags>
