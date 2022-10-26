@@ -25,7 +25,6 @@ public class Main {
         userService.getUserByID(4);
         userService.getAllUsers();
 
-
         IStaffService staffService = new StaffService();
         Staff newStaff = new Staff(3, "Pilot", 345);
         newStaff.setPosition("Worker");
