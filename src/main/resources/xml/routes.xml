@@ -1,0 +1,27 @@
+<routes>
+    <route>
+        <id>1</id>
+        <origin>Milan</origin>
+        <destination>Paris</destination>
+    </route>
+    <route>
+        <id>2</id>
+        <origin>Dubai</origin>
+        <destination>Rome</destination>
+    </route>
+    <route>
+        <id>3</id>
+        <origin>Miami</origin>
+        <destination>Boston</destination>
+    </route>
+    <route>
+        <id>4</id>
+        <origin>Warsaw</origin>
+        <destination>Copenhagen</destination>
+    </route>
+    <route>
+        <id>5</id>
+        <origin>London</origin>
+        <destination>Praha</destination>
+    </route>
+</routes>

@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6409dd4a-e799-4545-8221-98a9ed27fb00" name="Changes" comment="clean the project" />
+    <list default="true" id="6409dd4a-e799-4545-8221-98a9ed27fb00" name="Changes" comment="added model">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/DAO/AirlineDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/DAO/IAirlineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/DAO/ITicketDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/DAO/TicketDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/Airline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/FlightClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/MemberCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/services/ITicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/services/json/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/json/airports.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/json/animals.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/json/flight_classes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/json/tickets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xml/member_cards.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xml/routes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xsd/member_cards.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xsd/routes.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/airport/DAO/MealDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/DAO/MealDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/airport/services/IMealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/services/IMealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/airport/services/json/MealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/airport/services/json/MealService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +67,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/Users/dashabull/IdeaProjects/AirportApp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "O'Hare International Airport",
+    "location": "Chicago",
+    "terminals": 10
+  },
+  {
+    "id": 2,
+    "name": "Cairo International Airport",
+    "location": "Cairo",
+    "terminals": 10
+  },
+  {
+    "id": 3,
+    "name": "George Bush Intercontinental Airport ",
+    "location": "Houston",
+    "terminals": 10
+  }
+]

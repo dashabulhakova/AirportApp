@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "class_type": "Business",
+    "price": 345
+  },
+  {
+    "id": 2,
+    "class_type": "Economy",
+    "price": 127
+  }
+]

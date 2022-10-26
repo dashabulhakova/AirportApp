@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "animal": "Dog",
+    "size": "Medium",
+    "fee": 10
+  },
+  {
+    "id": 2,
+    "animal": "Cat",
+    "size": "Small",
+    "fee": 5
+  },
+  {
+    "id": 3,
+    "animal": "Dog",
+    "size": "Small",
+    "fee": 7
+  },
+  {
+    "id": 4,
+    "animal": "Rabbit",
+    "size": "Small",
+    "fee": 3
+  }
+]

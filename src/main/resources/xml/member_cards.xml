@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<member_cards>
+    <discount>
+        <id>1</id>
+        <level>Gold</level>
+        <years_as_member>6</years_as_member>
+    </discount>
+    <discount>
+        <id>2</id>
+        <level>Silver</level>
+        <years_as_member>2</years_as_member>
+    </discount>
+    <discount>
+        <id>3</id>
+        <level>Gold</level>
+        <years_as_member>4</years_as_member>
+    </discount>
+    <discount>
+        <id>4</id>
+        <level>Bronze</level>
+        <years_as_member>1</years_as_member>
+    </discount>
+    <discount>
+        <id>5</id>
+        <level>Silver</level>
+        <years_as_member>3</years_as_member>
+    </discount>
+</member_cards>
